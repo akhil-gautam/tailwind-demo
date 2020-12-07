@@ -2,7 +2,7 @@
 
 ## Demo Components
 ### Instagram Post Card
-<img src="https://i.ibb.co/Htsjck2/Screenshot-2020-12-07-at-11-16-44-AM.png" alt="screenshot"/>
+<img src="https://i.ibb.co/82rWsDW/Screenshot-2020-12-07-at-1-04-40-PM.png" alt="screenshot"/>
 
 ### Usage
 - Copy and Paste the code.

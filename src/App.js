@@ -1,14 +1,9 @@
 import React from 'react';
 
-import InstagramPost from './components/InstagramPost';
+import Instagram from './InstagramClone/components';
 
 const App = () => {
-  return (
-    <div className="flex flex-col items-center space-y-6">
-      <p className="text-xl text-center font-extralight pt-6">Instagram Post</p>
-      <InstagramPost />
-    </div>
-  );
+  return <Instagram />;
 };
 
 export default App;

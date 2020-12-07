@@ -11249,6 +11249,10 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-cursive {
+  font-family: cursive;
+}
+
 .font-thin {
   font-weight: 100;
 }
@@ -42769,6 +42773,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-cursive {
+    font-family: cursive;
+  }
+
   .sm\:font-thin {
     font-weight: 100;
   }
@@ -74244,6 +74252,10 @@ video {
 
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-cursive {
+    font-family: cursive;
   }
 
   .md\:font-thin {
@@ -105723,6 +105735,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-cursive {
+    font-family: cursive;
+  }
+
   .lg\:font-thin {
     font-weight: 100;
   }
@@ -137200,6 +137216,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-cursive {
+    font-family: cursive;
+  }
+
   .xl\:font-thin {
     font-weight: 100;
   }
@@ -168675,6 +168695,10 @@ video {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-cursive {
+    font-family: cursive;
   }
 
   .\32xl\:font-thin {

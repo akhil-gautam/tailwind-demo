@@ -1,9 +1,9 @@
 import React from 'react';
 
-const CardDemo = () => {
+const Instacard = ({ imgURL = 'https://bit.ly/2UmzIL4' }) => {
   return (
-    <div className="flex flex-col space-y-8 w-full md:w-3/6">
-      <Card>
+    <div className="flex flex-col w-full md:w-3/6">
+      <CardBase>
         <div className="flex flex-row px-2 pt-3 mb-2 items-center">
           <div className="h-12 w-12 rounded-full flex justify-center items-center bg-gradient-to-tr from-yellow-500 to-blue-400">
             <img
@@ -16,7 +16,7 @@ const CardDemo = () => {
           <div className="ml-auto font-bold text-md">...</div>
         </div>
         <img
-          src="https://bit.ly/2UmzIL4"
+          src={imgURL}
           alt="citylife of norway"
           className="w-full h-64 md:h-96 object-cover"
         />
@@ -51,7 +51,7 @@ const CardDemo = () => {
               />
             </svg>
           </div>
-          <div className="h-8 w-8">
+          <div className="h-8 w-8 transform rotate-45">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -82,15 +82,15 @@ const CardDemo = () => {
             </svg>
           </div>
         </div>
-      </Card>
+      </CardBase>
     </div>
   );
 };
 
-const Card = ({ children }) => (
-  <div className="flex flex-col bg-white w-auto h-auto shadow-md">
+const CardBase = ({ children }) => (
+  <div className="flex flex-col bg-white border-t border-gray-50 w-auto h-auto shadow-md">
     {children}
   </div>
 );
 
-export default CardDemo;
+export default Instacard;

@@ -51,7 +51,7 @@ const Instacard = ({ imgURL = 'https://bit.ly/2UmzIL4' }) => {
               />
             </svg>
           </div>
-          <div className="h-8 w-8 transform rotate-45">
+          <div className="h-8 w-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

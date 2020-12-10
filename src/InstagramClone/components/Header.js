@@ -24,7 +24,7 @@ const Header = () => {
           />
         </svg>
       </span>
-      <span className="text-2xl font-cursive font-medium">Instagram</span>
+      <span className="text-4xl font-cursive font-bold">Instagram</span>
       <span className="h-8 w-8 transform rotate-45">
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -4,3 +4,11 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.scroller-snap {
+  scroll-snap-type: x mandatory;
+}
+
+.scroll-item {
+  scroll-snap-align: center;
+}

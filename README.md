@@ -7,7 +7,10 @@
 https://tailwind-examples.vercel.app/
 
 ### Instagram Post Card
-<img src="https://i.ibb.co/xX4FchN/Screenshot-2020-12-11-at-2-39-35-AM.png" alt="screenshot"/>
+<img src="https://i.ibb.co/xX4FchN/Screenshot-2020-12-11-at-2-39-35-AM.png" alt="screenshot" />
+
+### Facebook Landing Page
+<img src="https://i.ibb.co/HYdngmK/fb-screenshot.png" alt="fb-clone" />
 
 ### Usage
 - Copy and Paste the code.

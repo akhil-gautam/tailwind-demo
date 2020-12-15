@@ -10,7 +10,8 @@ https://tailwind-examples.vercel.app/
 <img src="https://i.ibb.co/xX4FchN/Screenshot-2020-12-11-at-2-39-35-AM.png" alt="screenshot" />
 
 ### Facebook Landing Page
-<img src="https://i.ibb.co/HYdngmK/fb-screenshot.png" alt="fb-clone" />
+<img src="https://i.ibb.co/nwXMNLR/Screenshot-2020-12-16-at-2-11-52-AM.png" alt="fb-clone" />
+<img src="https://i.ibb.co/VMHqwvw/Screenshot-2020-12-16-at-2-12-06-AM.png" alt="fb-clone" />
 
 ### Usage
 - Copy and Paste the code.

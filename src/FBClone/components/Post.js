@@ -2,7 +2,7 @@ import React from 'react';
 
 const Post = () => {
   return (
-    <div className="flex flex-col mb-3 bg-white rounded-md border shadow-md">
+    <div className="flex flex-col md:mx-auto md:w-2/5 mb-3 bg-white rounded-md border shadow-md">
       <div className="flex items-center px-3 mt-2 mb-2">
         <img
           alt=""

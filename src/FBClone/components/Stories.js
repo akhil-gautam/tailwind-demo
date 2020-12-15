@@ -3,11 +3,11 @@ import React from 'react';
 const Stories = () => {
   return (
     <>
-      <div className="flex justify-between px-3 text-gray-700 bg-white text-md">
+      <div className="flex justify-between md:mx-auto md:w-2/5 px-3 text-gray-700 bg-white text-md">
         <div>Stories</div>
         <div className="text-purple-400">Your archive</div>
       </div>
-      <div className="overflow-x-scroll py-2 pl-3 mb-3 w-screen bg-white scroller-snap">
+      <div className="overflow-x-scroll py-2 pl-3 md:mx-auto md:w-2/5 mb-3 w-screen bg-white scroller-snap">
         <div className="inline-flex space-x-5">
           <Card />
           <Card />

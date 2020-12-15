@@ -3,7 +3,7 @@ import React from 'react';
 const Writer = () => {
   return (
     <>
-      <div className="flex items-center p-2 space-x-3 bg-white">
+      <div className="flex items-center p-2 md:mx-auto md:w-2/5 space-x-3 bg-white">
         <div className="overflow-hidden">
           <img
             alt=""
@@ -12,7 +12,7 @@ const Writer = () => {
           />
         </div>
         <textarea
-          className="h-16 w-3/5 md:w-11/12 rounded-lg border-2 pl-2 pt-2 focus:outline-none focus:border-gray-900"
+          className="h-16 w-3/5 md:w-10/12 rounded-lg border-2 pl-2 pt-2 focus:outline-none focus:border-gray-900"
           placeholder="Write something here..."
         />
         <div className="w-12 h-12">
@@ -31,7 +31,7 @@ const Writer = () => {
           </svg>
         </div>
       </div>
-      <div className="flex justify-around mb-3 text-blue-900 bg-white">
+      <div className="flex justify-around md:mx-auto md:w-2/5 mb-3 text-blue-900 bg-white">
         <div>Photo</div>
         <div className="border-r"></div>
         <div>Check in</div>

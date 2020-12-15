@@ -6,10 +6,12 @@
 
 https://tailwind-examples.vercel.app/
 
-### Instagram Post Card
+### Instagram Post Card 
+https://tailwind-examples.vercel.app/instagram
 <img src="https://i.ibb.co/xX4FchN/Screenshot-2020-12-11-at-2-39-35-AM.png" alt="screenshot" />
 
 ### Facebook Landing Page
+https://tailwind-examples.vercel.app/fb
 <img src="https://i.ibb.co/nwXMNLR/Screenshot-2020-12-16-at-2-11-52-AM.png" alt="fb-clone" />
 <img src="https://i.ibb.co/VMHqwvw/Screenshot-2020-12-16-at-2-12-06-AM.png" alt="fb-clone" />
 

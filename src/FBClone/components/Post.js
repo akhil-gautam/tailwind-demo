@@ -2,7 +2,7 @@ import React from 'react';
 
 const Post = () => {
   return (
-    <div className="flex flex-col border">
+    <div className="flex flex-col border bg-white mb-3 shadow-md rounded-md">
       <div className="flex items-center px-3 mb-2 mt-2">
         <img
           alt=""
@@ -10,7 +10,7 @@ const Post = () => {
           className="h-12 w-12 object-cover rounded-full mr-4"
         />
         <div className="text-gray-900 text-lg">Ben Martins</div>
-        <div className="ml-auto font-extrabold">...</div>
+        <div className="ml-auto font-extrabold">&middot;&middot;&middot;</div>
       </div>
       <div className="px-2 text-blue-700">#cool #niceShot #facebook</div>
       <div className="h-72 w-full">
@@ -20,13 +20,14 @@ const Post = () => {
           className="h-full w-full object-cover"
         />
       </div>
-      <div className="flex px-3 font-bold justify-between text-sm text-gray-600">
-        <div>
+      <div className="flex px-3 font-bold justify-between text-base text-gray-600">
+        <div className="flex p-2 hover:bg-gray-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
+            className="h-6 w-6"
           >
             <path
               strokeLinecap="round"
@@ -37,8 +38,40 @@ const Post = () => {
           </svg>
           <span>Like</span>
         </div>
-        <div>Comment</div>
-        <div>Share</div>
+        <div className="flex p-2 hover:bg-gray-100">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            className="h-6 w-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
+            />
+          </svg>
+          <span>Comment</span>
+        </div>
+        <div className="flex p-2 hover:bg-gray-100">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            className="h-6 w-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
+            />
+          </svg>
+          <span>Share</span>
+        </div>
       </div>
     </div>
   );

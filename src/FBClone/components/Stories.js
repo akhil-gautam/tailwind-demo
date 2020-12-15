@@ -2,14 +2,27 @@ import React from 'react';
 
 const Stories = () => {
   return (
-    <div className="w-screen overflow-x-scroll scroller-snap pl-3">
-      <div className="inline-flex space-x-5">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+    <>
+      <div className="flex justify-between px-3 bg-white text-md text-gray-700">
+        <div>Stories</div>
+        <div className="text-purple-400">Your archive</div>
       </div>
-    </div>
+      <div className="w-screen bg-white overflow-x-scroll scroller-snap pl-3 py-2 mb-3">
+        <div className="inline-flex space-x-5">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
+      </div>
+    </>
   );
 };
 

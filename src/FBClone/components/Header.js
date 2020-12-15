@@ -2,8 +2,8 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="flex justify-between py-2 bg-blue-900 px-3">
-      <div className="h-6 w-6">
+    <header className="flex justify-between py-2 px-3 bg-blue-900">
+      <div className="w-6 h-6">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -18,7 +18,7 @@ const Header = () => {
           />
         </svg>
       </div>
-      <div className="h-6 w-6">
+      <div className="w-6 h-6">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -33,7 +33,7 @@ const Header = () => {
           />
         </svg>
       </div>
-      <div className="h-6 w-6">
+      <div className="w-6 h-6">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -48,7 +48,7 @@ const Header = () => {
           />
         </svg>
       </div>
-      <div className="h-6 w-6">
+      <div className="w-6 h-6">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -63,7 +63,7 @@ const Header = () => {
           />
         </svg>
       </div>
-      <div className="h-6 w-6">
+      <div className="w-6 h-6">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -78,7 +78,7 @@ const Header = () => {
           />
         </svg>
       </div>
-      <div className="h-6 w-6">
+      <div className="w-6 h-6">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

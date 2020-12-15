@@ -2,32 +2,32 @@ import React from 'react';
 
 const Post = () => {
   return (
-    <div className="flex flex-col border bg-white mb-3 shadow-md rounded-md">
-      <div className="flex items-center px-3 mb-2 mt-2">
+    <div className="flex flex-col mb-3 bg-white rounded-md border shadow-md">
+      <div className="flex items-center px-3 mt-2 mb-2">
         <img
           alt=""
           src="https://bit.ly/3oGOCc8"
-          className="h-12 w-12 object-cover rounded-full mr-4"
+          className="object-cover mr-4 w-12 h-12 rounded-full"
         />
-        <div className="text-gray-900 text-lg">Ben Martins</div>
+        <div className="text-lg text-gray-900">Ben Martins</div>
         <div className="ml-auto font-extrabold">&middot;&middot;&middot;</div>
       </div>
       <div className="px-2 text-blue-700">#cool #niceShot #facebook</div>
-      <div className="h-72 w-full">
+      <div className="w-full h-72">
         <img
           src="https://bit.ly/3oGOCc8"
           alt=""
-          className="h-full w-full object-cover"
+          className="object-cover w-full h-full"
         />
       </div>
-      <div className="flex px-3 font-bold justify-between text-base text-gray-600">
+      <div className="flex justify-between px-3 text-base font-bold text-gray-600">
         <div className="flex p-2 hover:bg-gray-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            className="h-6 w-6"
+            className="w-6 h-6"
           >
             <path
               strokeLinecap="round"
@@ -44,7 +44,7 @@ const Post = () => {
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            className="h-6 w-6"
+            className="w-6 h-6"
           >
             <path
               strokeLinecap="round"
@@ -61,7 +61,7 @@ const Post = () => {
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            className="h-6 w-6"
+            className="w-6 h-6"
           >
             <path
               strokeLinecap="round"

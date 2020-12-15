@@ -2,8 +2,8 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 z-10 h-16 flex border-b border-gray-200 bg-white py-4 w-full justify-between px-2">
-      <span className="h-8 w-8">
+    <header className="flex fixed top-0 left-0 z-10 justify-between py-4 px-2 w-full h-16 bg-white border-b border-gray-200">
+      <span className="w-8 h-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -24,8 +24,8 @@ const Header = () => {
           />
         </svg>
       </span>
-      <span className="text-4xl font-cursive font-bold">Instagram</span>
-      <span className="h-8 w-8 transform rotate-45">
+      <span className="text-4xl font-bold font-cursive">Instagram</span>
+      <span className="w-8 h-8 transform rotate-45">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

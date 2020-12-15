@@ -4,12 +4,12 @@ const Instacard = ({ imgURL = 'https://bit.ly/2UmzIL4' }) => {
   return (
     <div className="flex flex-col w-full md:w-3/6">
       <CardBase>
-        <div className="flex flex-row px-2 pt-3 mb-2 items-center">
-          <div className="h-12 w-12 rounded-full flex justify-center items-center bg-gradient-to-tr from-yellow-500 to-blue-400">
+        <div className="flex flex-row items-center px-2 pt-3 mb-2">
+          <div className="flex justify-center items-center w-12 h-12 bg-gradient-to-tr from-yellow-500 to-blue-400 rounded-full">
             <img
               src="https://bit.ly/38HJkrV"
               alt="profile pic of kid"
-              className="h-10 w-10 object-cover rounded-full ring-0 ring-offset-2"
+              className="object-cover w-10 h-10 rounded-full ring-0 ring-offset-2"
             />
           </div>
           <div className="pl-4 font-medium text-md">Beautiful Destinations</div>
@@ -18,10 +18,10 @@ const Instacard = ({ imgURL = 'https://bit.ly/2UmzIL4' }) => {
         <img
           src={imgURL}
           alt="citylife of norway"
-          className="w-full h-64 md:h-96 object-cover"
+          className="object-cover w-full h-64 md:h-96"
         />
-        <div className="flex flex-row h-12 w-full p-2">
-          <div className="h-8 w-8 mr-2">
+        <div className="flex flex-row p-2 w-full h-12">
+          <div className="mr-2 w-8 h-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -36,7 +36,7 @@ const Instacard = ({ imgURL = 'https://bit.ly/2UmzIL4' }) => {
               />
             </svg>
           </div>
-          <div className="h-8 w-8 mr-2">
+          <div className="mr-2 w-8 h-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -51,7 +51,7 @@ const Instacard = ({ imgURL = 'https://bit.ly/2UmzIL4' }) => {
               />
             </svg>
           </div>
-          <div className="h-8 w-8">
+          <div className="w-8 h-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -66,7 +66,7 @@ const Instacard = ({ imgURL = 'https://bit.ly/2UmzIL4' }) => {
               />
             </svg>
           </div>
-          <div className="h-8 w-8 ml-auto">
+          <div className="ml-auto w-8 h-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -88,7 +88,7 @@ const Instacard = ({ imgURL = 'https://bit.ly/2UmzIL4' }) => {
 };
 
 const CardBase = ({ children }) => (
-  <div className="flex flex-col bg-white border-t border-gray-50 w-auto h-auto shadow-md">
+  <div className="flex flex-col w-auto h-auto bg-white border-t border-gray-50 shadow-md">
     {children}
   </div>
 );

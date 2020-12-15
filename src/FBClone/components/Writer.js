@@ -8,7 +8,7 @@ const Writer = () => {
           <img
             alt=""
             src="https://bit.ly/3oGOCc8"
-            className="h-12 w-12 object-cover rounded-full"
+            className="object-cover w-12 h-12 rounded-full"
           />
         </div>
         <textarea
@@ -31,7 +31,7 @@ const Writer = () => {
           </svg>
         </div>
       </div>
-      <div className="flex justify-around text-blue-900 mb-3 bg-white">
+      <div className="flex justify-around mb-3 text-blue-900 bg-white">
         <div>Photo</div>
         <div className="border-r"></div>
         <div>Check in</div>

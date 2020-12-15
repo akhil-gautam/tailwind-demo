@@ -7,7 +7,7 @@ import Post from './Post';
 
 const FBClone = () => {
   return (
-    <div className="flex flex-col bg-gray-100 overflow-x-hidden w-full">
+    <div className="flex overflow-x-hidden flex-col w-full bg-gray-100">
       <Header />
       <Writer />
       <Stories />

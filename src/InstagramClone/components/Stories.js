@@ -7,90 +7,90 @@ const URL = [
 
 const Stories = () => {
   return (
-    <div className="flex md:justify-center mt-16 w-full bg-gray-50 border-b-2 overflow-x-scroll">
+    <div className="flex overflow-x-scroll mt-16 w-full bg-gray-50 border-b-2 md:justify-center">
       <ul className="inline-flex py-2 px-4 space-x-4">
-        <li className="h-16 w-16 flex justify-center items-center rounded-full bg-gradient-to-tr from-red-500 to-blue-500">
+        <li className="flex justify-center items-center w-16 h-16 bg-gradient-to-tr from-red-500 to-blue-500 rounded-full">
           <img
             src={URL[0]}
             alt=""
-            className="rounded-full ring-0 ring-offset-2 h-14 w-14 object-cover"
+            className="object-cover w-14 h-14 rounded-full ring-0 ring-offset-2"
           />
         </li>
-        <li className="h-16 w-16 flex justify-center items-center rounded-full bg-gradient-to-tr from-red-500 to-blue-500">
+        <li className="flex justify-center items-center w-16 h-16 bg-gradient-to-tr from-red-500 to-blue-500 rounded-full">
           <img
             src={URL[1]}
             alt=""
-            className="rounded-full ring-0 ring-offset-2 h-14 w-14 object-cover"
+            className="object-cover w-14 h-14 rounded-full ring-0 ring-offset-2"
           />
         </li>
-        <li className="h-16 w-16 flex justify-center items-center rounded-full bg-gradient-to-tr from-red-500 to-blue-500">
+        <li className="flex justify-center items-center w-16 h-16 bg-gradient-to-tr from-red-500 to-blue-500 rounded-full">
           <img
             src={URL[0]}
             alt=""
-            className="rounded-full ring-0 ring-offset-2 h-14 w-14 object-cover"
+            className="object-cover w-14 h-14 rounded-full ring-0 ring-offset-2"
           />
         </li>
-        <li className="h-16 w-16 flex justify-center items-center rounded-full bg-gradient-to-tr from-red-500 to-blue-500">
+        <li className="flex justify-center items-center w-16 h-16 bg-gradient-to-tr from-red-500 to-blue-500 rounded-full">
           <img
             src={URL[1]}
             alt=""
-            className="rounded-full ring-0 ring-offset-2 h-14 w-14 object-cover"
+            className="object-cover w-14 h-14 rounded-full ring-0 ring-offset-2"
           />
         </li>
-        <li className="h-16 w-16 flex justify-center items-center rounded-full bg-gradient-to-tr from-red-500 to-blue-500">
+        <li className="flex justify-center items-center w-16 h-16 bg-gradient-to-tr from-red-500 to-blue-500 rounded-full">
           <img
             src={URL[0]}
             alt=""
-            className="rounded-full ring-0 ring-offset-2 h-14 w-14 object-cover"
+            className="object-cover w-14 h-14 rounded-full ring-0 ring-offset-2"
           />
         </li>
-        <li className="h-16 w-16 flex justify-center items-center rounded-full bg-gradient-to-tr from-red-500 to-blue-500">
+        <li className="flex justify-center items-center w-16 h-16 bg-gradient-to-tr from-red-500 to-blue-500 rounded-full">
           <img
             src={URL[1]}
             alt=""
-            className="rounded-full ring-0 ring-offset-2 h-14 w-14 object-cover"
+            className="object-cover w-14 h-14 rounded-full ring-0 ring-offset-2"
           />
         </li>
-        <li className="h-16 w-16 flex justify-center items-center rounded-full bg-gradient-to-tr from-red-500 to-blue-500">
+        <li className="flex justify-center items-center w-16 h-16 bg-gradient-to-tr from-red-500 to-blue-500 rounded-full">
           <img
             src={URL[0]}
             alt=""
-            className="rounded-full ring-0 ring-offset-2 h-14 w-14 object-cover"
+            className="object-cover w-14 h-14 rounded-full ring-0 ring-offset-2"
           />
         </li>
-        <li className="h-16 w-16 flex justify-center items-center rounded-full bg-gradient-to-tr from-red-500 to-blue-500">
+        <li className="flex justify-center items-center w-16 h-16 bg-gradient-to-tr from-red-500 to-blue-500 rounded-full">
           <img
             src={URL[0]}
             alt=""
-            className="rounded-full ring-0 ring-offset-2 h-14 w-14 object-cover"
+            className="object-cover w-14 h-14 rounded-full ring-0 ring-offset-2"
           />
         </li>
-        <li className="h-16 w-16 flex justify-center items-center rounded-full bg-gradient-to-tr from-red-500 to-blue-500">
+        <li className="flex justify-center items-center w-16 h-16 bg-gradient-to-tr from-red-500 to-blue-500 rounded-full">
           <img
             src={URL[0]}
             alt=""
-            className="rounded-full ring-0 ring-offset-2 h-14 w-14 object-cover"
+            className="object-cover w-14 h-14 rounded-full ring-0 ring-offset-2"
           />
         </li>
-        <li className="h-16 w-16 flex justify-center items-center rounded-full bg-gradient-to-tr from-red-500 to-blue-500">
+        <li className="flex justify-center items-center w-16 h-16 bg-gradient-to-tr from-red-500 to-blue-500 rounded-full">
           <img
             src={URL[1]}
             alt=""
-            className="rounded-full ring-0 ring-offset-2 h-14 w-14 object-cover"
+            className="object-cover w-14 h-14 rounded-full ring-0 ring-offset-2"
           />
         </li>
-        <li className="h-16 w-16 flex justify-center items-center rounded-full bg-gradient-to-tr from-red-500 to-blue-500">
+        <li className="flex justify-center items-center w-16 h-16 bg-gradient-to-tr from-red-500 to-blue-500 rounded-full">
           <img
             src={URL[1]}
             alt=""
-            className="rounded-full ring-0 ring-offset-2 h-14 w-14 object-cover"
+            className="object-cover w-14 h-14 rounded-full ring-0 ring-offset-2"
           />
         </li>
-        <li className="h-16 w-16 flex justify-center items-center rounded-full bg-gradient-to-tr from-red-500 to-blue-500">
+        <li className="flex justify-center items-center w-16 h-16 bg-gradient-to-tr from-red-500 to-blue-500 rounded-full">
           <img
             src={URL[1]}
             alt=""
-            className="rounded-full ring-0 ring-offset-2 h-14 w-14 object-cover"
+            className="object-cover w-14 h-14 rounded-full ring-0 ring-offset-2"
           />
         </li>
       </ul>

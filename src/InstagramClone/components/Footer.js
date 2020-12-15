@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <header className="fixed bottom-0 left-0 z-10 h-14 flex border-t-2 border-gray-200 bg-white py-2 w-full justify-around">
-      <span className="h-8 w-8">
+    <header className="flex fixed bottom-0 left-0 z-10 justify-around py-2 w-full h-14 bg-white border-t-2 border-gray-200">
+      <span className="w-8 h-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -18,7 +18,7 @@ const Footer = () => {
           />
         </svg>
       </span>
-      <span className="h-8 w-8">
+      <span className="w-8 h-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -33,7 +33,7 @@ const Footer = () => {
           />
         </svg>
       </span>
-      <span className="h-8 w-8">
+      <span className="w-8 h-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -48,7 +48,7 @@ const Footer = () => {
           />
         </svg>
       </span>
-      <span className="h-8 w-8">
+      <span className="w-8 h-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -63,7 +63,7 @@ const Footer = () => {
           />
         </svg>
       </span>
-      <span className="h-8 w-8">
+      <span className="w-8 h-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

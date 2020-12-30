@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>Simple Centered</title>
+</head>
+
+<body class="h-full w-full bg-gray-50">
+  <!-- container div -->
+  <div class="flex flex-col h-full w-full">
+
+    <!-- header starts -->
+    <header class="relative flex justify-center items-center p-6 bg-white shadow-sm">
+      <div class="absolute left-6 font-normal text-indigo-500 text-2xl">Logo</div>
+      <ul class="flex items-center space-x-8 font-normal text-xl text-gray-400">
+        <li>
+          <a href="#">
+            Solutions
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Pricing
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Docs
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            More
+          </a>
+        </li>
+      </ul>
+      <div class="absolute right-4">
+        <button class="bg-white px-6 py-2 font-semibold text-lg text-gray-400">Sign in</button>
+        <button class="bg-indigo-500 shadow-sm rounded-md px-6 py-2 text-white">Sign up</button>
+      </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- main section starts -->
+    <section class="flex space-x-8 px-4">
+      <!-- splitting the main section row-wise -->
+
+      <section class="flex flex-col justify-center space-y-8">
+        <p class="font-extrabold text-7xl text-left">
+          Data to enrich your <span class="text-indigo-600">online business</span>
+        </p>
+        <p class="text-gray-400 font-normal text-2xl">Contrary to popular belief, Lorem Ipsum is not
+          simply random
+          text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        <section class="flex space-x-8">
+          <button class="bg-indigo-500 px-10 py-4 text-xl text-white rounded-md shadow-md">Get started</button>
+          <button class="px-10 py-4 text-xl text-indigo-500 rounded-md shadow-md">Live demo</button>
+        </section>
+      </section>
+
+      <section>
+        <img
+          src="https://images.pexels.com/photos/3184345/pexels-photo-3184345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt="" class="h-screen object-cover" />
+      </section>
+    </section>
+  </div>
+</body>
+
+</html>
